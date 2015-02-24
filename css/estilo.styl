@@ -1,0 +1,109 @@
+azul=#3498db;
+blanco=#ecf0f1;
+plata=#ecf0f1;
+azulOscuro=#2c3e50;
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?v7eyuo');
+	src:url('fonts/icomoon.eot?#iefixv7eyuo') format('embedded-opentype'),
+		url('fonts/icomoon.woff?v7eyuo') format('woff'),
+		url('fonts/icomoon.ttf?v7eyuo') format('truetype'),
+		url('fonts/icomoon.svg?v7eyuo#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+body
+	background blanco
+	font-size 16px
+header
+	background azul
+	div.menu
+		width 12%
+		display inline-block
+		text-align center
+		
+		p
+			margin 11px 0
+			&:after
+				font-family icomoon
+				content "\e9bd"
+				color #fff
+			
+	h1
+		width 72%
+		margin 0
+		display inline-block
+		font-size 1.2em
+		text-align center
+		color #fff
+		text-shadow 1px 1px 2px azulOscuro
+		
+		
+	figure
+		width 41px
+		margin 0
+		display inline-block
+		background #fff
+		float right
+		img
+			width 100%
+	nav
+		background azulOscuro
+		ul
+			list-style none
+			margin 0
+			padding 0
+			li
+				border-bottom 1px solid #7f8c8d
+				padding .8em .5em
+		
+				
+				a
+					color #fff
+					text-decoration none
+					font-weight bold
+				span
+					padding .3em
+					text-align center
+					background #fff
+					border-radius 50%
+					margin  .5em 1.6em .5em 0
+				span.inicio,span.licenciatura, span.sistAbierto,span.maestria,span.doctorado,span.instalaciones,span.conocenos,span.plataforma,span.revista,span.radio,span.promociones
+					color azul
+					font-family icomoon
+				span.inicio:after
+					content "\e900"
+				span.licenciatura:after
+					content "\e604"
+				span.sistAbierto:after
+					content "\e91f"
+				span.maestria:after
+					content "\e920"
+				span.doctorado:after
+					content "\e921"
+				span.instalaciones:after
+					content "\e903"
+				span.conocenos:after
+					content "\e948"
+				span.plataforma:after
+					content "\e972"
+				span.revista:after
+					content "\e602"
+				span.radio:after
+					content "\e910"
+				span.promociones:after
+					content "\e99f"
+					
+					
+				
+					
+						
+					
+					
+		ul.subMenuLicenciatura, ul.subMenuAbierto, ul.subMenuMaestrias,ul.subMenuDoctorado
+			display none
+	
+
