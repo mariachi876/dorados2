@@ -62,11 +62,11 @@ header nav ul li a {
   font-weight: bold;
 }
 header nav ul li span {
-  padding: 0.3em;
-  text-align: center;
+  width: 200px;
+  padding: 0.6em;
   background: #fff;
   border-radius: 50%;
-  margin: 0.5em 1.6em 0.5em 0;
+  margin-right: 10%;
 }
 header nav ul li span.inicio,
 header nav ul li span.licenciatura,
@@ -115,15 +115,27 @@ header nav ul li span.radio:after {
 header nav ul li span.promociones:after {
   content: "\e99f";
 }
-header nav ul.subMenuLicenciatura li {
-  padding-left: 30px;
-  font-size: 16px;
-  text-align: left;
-  border: 1px solid #f00;
+header nav ul.subMenuLicenciatura li div.bolita {
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  border-radius: 50%;
+  position: relative;
+  display: inline-block;
+  margin-left: 7%;
 }
-header nav ul.subMenuLicenciatura li span:after {
+header nav ul.subMenuLicenciatura li p:after {
   font-family: icomoon;
   content: "\e99f";
+  position: absolute;
+  top: 5px;
+  left: 7px;
+}
+header nav ul.subMenuLicenciatura li a {
+  width: 225px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 5px;
 }
 header nav ul.subMenuLicenciatura,
 header nav ul.subMenuAbierto,

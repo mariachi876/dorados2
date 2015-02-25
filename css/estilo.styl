@@ -66,11 +66,12 @@ header
 					text-decoration none
 					font-weight bold
 				span
-					padding .3em
-					text-align center
+					width 200px
+					padding .6em 
 					background #fff
 					border-radius 50%
-					margin  .5em 1.6em .5em 0
+					margin-right 10%
+					
 				span.inicio,span.licenciatura, span.sistAbierto,span.maestria,span.doctorado,span.instalaciones,span.conocenos,span.plataforma,span.revista,span.radio,span.promociones
 					color azul
 					font-family icomoon
@@ -99,14 +100,27 @@ header
 		
 		ul.subMenuLicenciatura
 			li
-				padding-left 30px
-				font-size 16px
-				text-align left
+				div.bolita
+					width 30px
+					height 30px
+					background #fff
+					border-radius 50%
+					position relative
+					display inline-block
+					margin-left 7%
 				
-				border 1px solid red
-				span:after
+				p:after
 					font-family icomoon
 					content "\e99f"
+					position absolute
+					top 5px
+					left 7px
+				a
+					width 225px
+					display inline-block
+					vertical-align top
+					margin-top 5px
+					
 		ul.subMenuLicenciatura, ul.subMenuAbierto, ul.subMenuMaestrias,ul.subMenuDoctorado
 			display none
 	
