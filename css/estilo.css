@@ -122,20 +122,50 @@ header nav ul.subMenuLicenciatura li div.bolita {
   border-radius: 50%;
   position: relative;
   display: inline-block;
-  margin-left: 7%;
+  margin-left: 20%;
 }
-header nav ul.subMenuLicenciatura li p:after {
+header nav ul.subMenuLicenciatura li p.gastro,
+header nav ul.subMenuLicenciatura li p.turismo,
+header nav ul.subMenuLicenciatura li p.derecho,
+header nav ul.subMenuLicenciatura li p.grafico,
+header nav ul.subMenuLicenciatura li p.educacion,
+header nav ul.subMenuLicenciatura li p.comunicacion,
+header nav ul.subMenuLicenciatura li p.merca,
+header nav ul.subMenuLicenciatura li p.conta,
+header nav ul.subMenuLicenciatura li p.sistemas {
   font-family: icomoon;
-  content: "\e99f";
   position: absolute;
-  top: 5px;
+  top: -10px;
   left: 7px;
+  color: #3498db;
+}
+header nav ul.subMenuLicenciatura li p.gastro:after {
+  content: "\e9a0";
+}
+header nav ul.subMenuLicenciatura li p.turismo:after {
+  content: "\e9ae";
+}
+header nav ul.subMenuLicenciatura li p.derecho:after {
+  content: "\e9a8";
+}
+header nav ul.subMenuLicenciatura li p.grafico:after {
+  content: "\e906";
+}
+header nav ul.subMenuLicenciatura li p.educacion:after {
+  content: "\e91f";
+}
+header nav ul.subMenuLicenciatura li p.comunicacion:after {
+  content: "\e91e";
+}
+header nav ul.subMenuLicenciatura li p.merca:after {
+  content: "\e99b";
 }
 header nav ul.subMenuLicenciatura li a {
-  width: 225px;
+  width: 67%;
   display: inline-block;
   vertical-align: top;
   margin-top: 5px;
+  text-align: left;
 }
 header nav ul.subMenuLicenciatura,
 header nav ul.subMenuAbierto,

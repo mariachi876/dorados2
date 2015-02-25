@@ -107,19 +107,34 @@ header
 					border-radius 50%
 					position relative
 					display inline-block
-					margin-left 7%
+					margin-left 20%
 				
-				p:after
+				p.gastro,p.turismo,p.derecho,p.grafico,p.educacion,p.comunicacion,p.merca,p.conta,p.sistemas
 					font-family icomoon
-					content "\e99f"
 					position absolute
-					top 5px
+					top -10px
 					left 7px
+					color azul
+				p.gastro:after
+					content "\e9a0"
+				p.turismo:after
+					content "\e9ae"
+				p.derecho:after
+					content "\e9a8"
+				p.grafico:after
+					content "\e906"
+				p.educacion:after
+					content "\e91f"
+				p.comunicacion:after
+					content "\e91e"
+				p.merca:after
+					content "\e99b"
 				a
-					width 225px
+					width 67%
 					display inline-block
 					vertical-align top
 					margin-top 5px
+					text-align left
 					
 		ul.subMenuLicenciatura, ul.subMenuAbierto, ul.subMenuMaestrias,ul.subMenuDoctorado
 			display none
