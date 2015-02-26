@@ -119,7 +119,8 @@ header nav ul li span.promociones:after {
 header nav ul.subMenuLicenciatura li div.bolita,
 header nav ul.subMenuAbierto li div.bolita,
 header nav ul.subMenuMaestrias li div.bolita,
-header nav ul.subMenuDoctorado li div.bolita {
+header nav ul.subMenuDoctorado li div.bolita,
+header nav ul.subMenuPlataforma li div.bolita {
   width: 30px;
   height: 30px;
   background: #fff;
@@ -132,50 +133,72 @@ header nav ul.subMenuLicenciatura li p.gastro,
 header nav ul.subMenuAbierto li p.gastro,
 header nav ul.subMenuMaestrias li p.gastro,
 header nav ul.subMenuDoctorado li p.gastro,
+header nav ul.subMenuPlataforma li p.gastro,
 header nav ul.subMenuLicenciatura li p.turismo,
 header nav ul.subMenuAbierto li p.turismo,
 header nav ul.subMenuMaestrias li p.turismo,
 header nav ul.subMenuDoctorado li p.turismo,
+header nav ul.subMenuPlataforma li p.turismo,
 header nav ul.subMenuLicenciatura li p.derecho,
 header nav ul.subMenuAbierto li p.derecho,
 header nav ul.subMenuMaestrias li p.derecho,
 header nav ul.subMenuDoctorado li p.derecho,
+header nav ul.subMenuPlataforma li p.derecho,
 header nav ul.subMenuLicenciatura li p.grafico,
 header nav ul.subMenuAbierto li p.grafico,
 header nav ul.subMenuMaestrias li p.grafico,
 header nav ul.subMenuDoctorado li p.grafico,
+header nav ul.subMenuPlataforma li p.grafico,
 header nav ul.subMenuLicenciatura li p.educacion,
 header nav ul.subMenuAbierto li p.educacion,
 header nav ul.subMenuMaestrias li p.educacion,
 header nav ul.subMenuDoctorado li p.educacion,
+header nav ul.subMenuPlataforma li p.educacion,
 header nav ul.subMenuLicenciatura li p.comunicacion,
 header nav ul.subMenuAbierto li p.comunicacion,
 header nav ul.subMenuMaestrias li p.comunicacion,
 header nav ul.subMenuDoctorado li p.comunicacion,
+header nav ul.subMenuPlataforma li p.comunicacion,
 header nav ul.subMenuLicenciatura li p.merca,
 header nav ul.subMenuAbierto li p.merca,
 header nav ul.subMenuMaestrias li p.merca,
 header nav ul.subMenuDoctorado li p.merca,
+header nav ul.subMenuPlataforma li p.merca,
 header nav ul.subMenuLicenciatura li p.conta,
 header nav ul.subMenuAbierto li p.conta,
 header nav ul.subMenuMaestrias li p.conta,
 header nav ul.subMenuDoctorado li p.conta,
+header nav ul.subMenuPlataforma li p.conta,
 header nav ul.subMenuLicenciatura li p.sistemas,
 header nav ul.subMenuAbierto li p.sistemas,
 header nav ul.subMenuMaestrias li p.sistemas,
 header nav ul.subMenuDoctorado li p.sistemas,
+header nav ul.subMenuPlataforma li p.sistemas,
 header nav ul.subMenuLicenciatura li p.tics,
 header nav ul.subMenuAbierto li p.tics,
 header nav ul.subMenuMaestrias li p.tics,
 header nav ul.subMenuDoctorado li p.tics,
+header nav ul.subMenuPlataforma li p.tics,
 header nav ul.subMenuLicenciatura li p.informatica,
 header nav ul.subMenuAbierto li p.informatica,
 header nav ul.subMenuMaestrias li p.informatica,
 header nav ul.subMenuDoctorado li p.informatica,
+header nav ul.subMenuPlataforma li p.informatica,
 header nav ul.subMenuLicenciatura li p.empresas,
 header nav ul.subMenuAbierto li p.empresas,
 header nav ul.subMenuMaestrias li p.empresas,
-header nav ul.subMenuDoctorado li p.empresas {
+header nav ul.subMenuDoctorado li p.empresas,
+header nav ul.subMenuPlataforma li p.empresas,
+header nav ul.subMenuLicenciatura li p.usuario,
+header nav ul.subMenuAbierto li p.usuario,
+header nav ul.subMenuMaestrias li p.usuario,
+header nav ul.subMenuDoctorado li p.usuario,
+header nav ul.subMenuPlataforma li p.usuario,
+header nav ul.subMenuLicenciatura li p.contra,
+header nav ul.subMenuAbierto li p.contra,
+header nav ul.subMenuMaestrias li p.contra,
+header nav ul.subMenuDoctorado li p.contra,
+header nav ul.subMenuPlataforma li p.contra {
   font-family: icomoon;
   position: absolute;
   top: -10px;
@@ -185,88 +208,143 @@ header nav ul.subMenuDoctorado li p.empresas {
 header nav ul.subMenuLicenciatura li p.gastro:after,
 header nav ul.subMenuAbierto li p.gastro:after,
 header nav ul.subMenuMaestrias li p.gastro:after,
-header nav ul.subMenuDoctorado li p.gastro:after {
+header nav ul.subMenuDoctorado li p.gastro:after,
+header nav ul.subMenuPlataforma li p.gastro:after {
   content: "\e9a0";
 }
 header nav ul.subMenuLicenciatura li p.turismo:after,
 header nav ul.subMenuAbierto li p.turismo:after,
 header nav ul.subMenuMaestrias li p.turismo:after,
-header nav ul.subMenuDoctorado li p.turismo:after {
+header nav ul.subMenuDoctorado li p.turismo:after,
+header nav ul.subMenuPlataforma li p.turismo:after {
   content: "\e9ae";
 }
 header nav ul.subMenuLicenciatura li p.derecho:after,
 header nav ul.subMenuAbierto li p.derecho:after,
 header nav ul.subMenuMaestrias li p.derecho:after,
-header nav ul.subMenuDoctorado li p.derecho:after {
+header nav ul.subMenuDoctorado li p.derecho:after,
+header nav ul.subMenuPlataforma li p.derecho:after {
   content: "\e9a8";
 }
 header nav ul.subMenuLicenciatura li p.grafico:after,
 header nav ul.subMenuAbierto li p.grafico:after,
 header nav ul.subMenuMaestrias li p.grafico:after,
-header nav ul.subMenuDoctorado li p.grafico:after {
+header nav ul.subMenuDoctorado li p.grafico:after,
+header nav ul.subMenuPlataforma li p.grafico:after {
   content: "\e906";
 }
 header nav ul.subMenuLicenciatura li p.educacion:after,
 header nav ul.subMenuAbierto li p.educacion:after,
 header nav ul.subMenuMaestrias li p.educacion:after,
-header nav ul.subMenuDoctorado li p.educacion:after {
+header nav ul.subMenuDoctorado li p.educacion:after,
+header nav ul.subMenuPlataforma li p.educacion:after {
   content: "\e91f";
 }
 header nav ul.subMenuLicenciatura li p.comunicacion:after,
 header nav ul.subMenuAbierto li p.comunicacion:after,
 header nav ul.subMenuMaestrias li p.comunicacion:after,
-header nav ul.subMenuDoctorado li p.comunicacion:after {
+header nav ul.subMenuDoctorado li p.comunicacion:after,
+header nav ul.subMenuPlataforma li p.comunicacion:after {
   content: "\e91e";
 }
 header nav ul.subMenuLicenciatura li p.merca:after,
 header nav ul.subMenuAbierto li p.merca:after,
 header nav ul.subMenuMaestrias li p.merca:after,
-header nav ul.subMenuDoctorado li p.merca:after {
+header nav ul.subMenuDoctorado li p.merca:after,
+header nav ul.subMenuPlataforma li p.merca:after {
   content: "\e99b";
 }
 header nav ul.subMenuLicenciatura li p.conta:after,
 header nav ul.subMenuAbierto li p.conta:after,
 header nav ul.subMenuMaestrias li p.conta:after,
-header nav ul.subMenuDoctorado li p.conta:after {
+header nav ul.subMenuDoctorado li p.conta:after,
+header nav ul.subMenuPlataforma li p.conta:after {
   content: "\e93b";
 }
 header nav ul.subMenuLicenciatura li p.sistemas:after,
 header nav ul.subMenuAbierto li p.sistemas:after,
 header nav ul.subMenuMaestrias li p.sistemas:after,
-header nav ul.subMenuDoctorado li p.sistemas:after {
+header nav ul.subMenuDoctorado li p.sistemas:after,
+header nav ul.subMenuPlataforma li p.sistemas:after {
   content: "\e956";
 }
 header nav ul.subMenuLicenciatura li p.tics:after,
 header nav ul.subMenuAbierto li p.tics:after,
 header nav ul.subMenuMaestrias li p.tics:after,
-header nav ul.subMenuDoctorado li p.tics:after {
+header nav ul.subMenuDoctorado li p.tics:after,
+header nav ul.subMenuPlataforma li p.tics:after {
   content: "\e920";
 }
 header nav ul.subMenuLicenciatura li p.informatica:after,
 header nav ul.subMenuAbierto li p.informatica:after,
 header nav ul.subMenuMaestrias li p.informatica:after,
-header nav ul.subMenuDoctorado li p.informatica:after {
+header nav ul.subMenuDoctorado li p.informatica:after,
+header nav ul.subMenuPlataforma li p.informatica:after {
   content: "\e601";
 }
 header nav ul.subMenuLicenciatura li p.empresas:after,
 header nav ul.subMenuAbierto li p.empresas:after,
 header nav ul.subMenuMaestrias li p.empresas:after,
-header nav ul.subMenuDoctorado li p.empresas:after {
+header nav ul.subMenuDoctorado li p.empresas:after,
+header nav ul.subMenuPlataforma li p.empresas:after {
   content: "\e976";
+}
+header nav ul.subMenuLicenciatura li p.usuario:after,
+header nav ul.subMenuAbierto li p.usuario:after,
+header nav ul.subMenuMaestrias li p.usuario:after,
+header nav ul.subMenuDoctorado li p.usuario:after,
+header nav ul.subMenuPlataforma li p.usuario:after {
+  content: "\e972";
+}
+header nav ul.subMenuLicenciatura li p.contra:after,
+header nav ul.subMenuAbierto li p.contra:after,
+header nav ul.subMenuMaestrias li p.contra:after,
+header nav ul.subMenuDoctorado li p.contra:after,
+header nav ul.subMenuPlataforma li p.contra:after {
+  content: "\e600";
 }
 header nav ul.subMenuLicenciatura li a,
 header nav ul.subMenuAbierto li a,
 header nav ul.subMenuMaestrias li a,
-header nav ul.subMenuDoctorado li a {
+header nav ul.subMenuDoctorado li a,
+header nav ul.subMenuPlataforma li a {
   width: 67%;
   display: inline-block;
   vertical-align: top;
   margin-top: 5px;
   text-align: left;
 }
+header nav ul.subMenuLicenciatura li input,
+header nav ul.subMenuAbierto li input,
+header nav ul.subMenuMaestrias li input,
+header nav ul.subMenuDoctorado li input,
+header nav ul.subMenuPlataforma li input {
+  width: 60%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  border: none;
+  padding: 0.3em;
+  border-radius: 10px;
+}
+header nav ul.subMenuLicenciatura li button,
+header nav ul.subMenuAbierto li button,
+header nav ul.subMenuMaestrias li button,
+header nav ul.subMenuDoctorado li button,
+header nav ul.subMenuPlataforma li button {
+  width: 60%;
+  border: none;
+  background: #3498db;
+  color: #ecf0f1;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.5em;
+  margin: 0 20%;
+}
 header nav ul.subMenuLicenciatura,
 header nav ul.subMenuAbierto,
 header nav ul.subMenuMaestrias,
-header nav ul.subMenuDoctorado {
+header nav ul.subMenuDoctorado,
+header nav ul.subMenuPlataforma {
   display: none;
 }

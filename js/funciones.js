@@ -7,6 +7,7 @@ function inicio()
 	$('#maestrias').on('click',maestrias);
 	$('#doctorado').on('click',doctorado);
 	$('#menu').on('click',menu);
+	$('#plataforma').on('click',plataforma);
 }
 
 function licenciatura()
@@ -33,4 +34,9 @@ function doctorado()
 function menu()
 {
 	$('header nav').toggle('slow');
+}
+
+function plataforma()
+{
+	$('ul.subMenuPlataforma').toggle('slow');
 }
