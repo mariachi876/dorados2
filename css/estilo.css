@@ -348,3 +348,71 @@ header nav ul.subMenuDoctorado,
 header nav ul.subMenuPlataforma {
   display: none;
 }
+section.mision {
+  background: url("../img/escuela.JPG");
+  background-size: 100% 100%;
+  text-align: center;
+  color: #fff;
+}
+section.mision article.vision {
+  display: none;
+}
+section.mision article.textoMision h2 {
+  margin: 0 5%;
+  width: 90%;
+  padding-top: 3%;
+  text-align: center;
+}
+section.mision article.textoMision p {
+  width: 90%;
+  margin: 0 5%;
+  text-shadow: 1px 1px 2px #000;
+  padding-bottom: 3%;
+  font-style: italic;
+  text-align: justify;
+  color: #fff;
+}
+section.carreras {
+  background: #2c3e50;
+  position: relative;
+}
+section.carreras h2 {
+  text-align: center;
+  color: #fff;
+  padding: 3% 0;
+  margin: 0;
+}
+section.carreras:after {
+  content: "";
+  position: absolute;
+  border-top: 10px solid #2c3e50;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  bottom: -20px;
+  left: 50%;
+}
+section.licenciaturas article {
+  width: 100px;
+  height: 100px;
+  background: #f00;
+  position: relative;
+}
+section.licenciaturas article:after {
+  content: "";
+  position: absolute;
+  border-top: 50px solid transparent;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 50px solid #ff0;
+  top: -70px;
+}
+section.licenciaturas article:before {
+  content: "";
+  position: absolute;
+  border-top: 50px solid #008000;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  bottom: -70px;
+}
