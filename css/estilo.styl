@@ -21,7 +21,7 @@ body
 header
 	background azul
 	div.menu
-		width 12%
+		width 11%
 		display inline-block
 		text-align center
 		
@@ -31,6 +31,7 @@ header
 				font-family icomoon
 				content "\e9bd"
 				color #fff
+				font-size 24px
 			
 	h1
 		width 72%
@@ -43,7 +44,7 @@ header
 		
 		
 	figure
-		width 41px
+		width 49px
 		margin 0
 		display inline-block
 		background #fff
@@ -176,15 +177,18 @@ section.mision
 	background-size 100% 100%
 	text-align center
 	color #fff
+	padding 5% 1%
 	article.vision
 		display none
 	article.textoMision
 		h2
-			margin 0 5%
-			width 90%
-			padding-top 3%
+			margin 0 auto
+			width 40%
+			padding .5% 0%
 			text-align center
-		
+			opacity .9
+			margin-bottom 3%
+			text-shadow 2px 2px 2px #000
 		p
 			width 90%
 			margin 0 5%
@@ -210,30 +214,77 @@ section.carreras:after
 	border-right 10px solid transparent
 	border-bottom 10px solid transparent
 	bottom -20px
-	left 50%
+	left 45.5%
 section.licenciaturas
 	article
-		width 100px
-		height 100px
-		background red
+		width 140px
+		height 92px
+		background black
 		position relative
+		margin 15% 2% 0 2% 
+		display inline-block
+		padding 0
+		text-align center
+		color #fff
+		vertical-align top
+		p,h4
+			margin 1% 0
+		div.bolita
+			width 30px
+			height 30px
+			background #fff
+			border-radius 50%
+			position relative
+			display inline-block
+			margin 0% auto
+				
+			p.gastro,p.turismo,p.derecho,p.grafico,p.educacion,p.comunicacion,p.merca,p.conta,p.sistemas,p.tics,p.informatica,p.empresas,p.usuario,p.contra
+				font-family icomoon
+				position absolute
+				top 5px
+				left 7px
+				color azul
+			p.gastro:after
+				content "\e9a0"
+			p.turismo:after
+				content "\e9ae"
+			p.derecho:after
+				content "\e9a8"
+			p.grafico:after
+				content "\e906"
+			p.educacion:after
+				content "\e91f"
+			p.comunicacion:after
+				content "\e91e"
+			p.merca:after
+				content "\e99b"
+			p.conta:after
+				content "\e93b"
+			p.sistemas:after
+				content "\e956"
 	article:after
-		content ""
-		position absolute
-		border-top 50px solid transparent
-		border-left 50px solid transparent
-		border-right 50px solid transparent
-		border-bottom 50px solid yellow
-		top -70px
+		content: "";
+		position: absolute;
+		bottom: -30px;
+		left: 0;
+		width: 0;
+		height: 0;
+		border-left: 70px solid transparent;
+		border-right: 70px solid transparent;
+		border-top: 30px solid black;
 	article:before
-		content ""
-		position absolute
-		border-top 50px solid green
-		border-left 50px solid transparent
-		border-right 50px solid transparent
-		border-bottom 50px solid transparent
-		bottom -70px
-		
-		
+		content: "";
+		position: absolute;
+		top: -30px;
+		left: 0;
+		width: 0;
+		height: 0;
+		border-left: 70px solid transparent;
+		border-right: 70px solid transparent;
+		border-bottom: 30px solid black;
+	article.ld,article.laym,article.lc
+		margin 12% 27%
+	article.ldg,article.lce,article.lcyf,article.isc
+		margin-top 0
 
 

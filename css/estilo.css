@@ -13,7 +13,7 @@ header {
   background: #3498db;
 }
 header div.menu {
-  width: 12%;
+  width: 11%;
   display: inline-block;
   text-align: center;
 }
@@ -24,6 +24,7 @@ header div.menu p:after {
   font-family: icomoon;
   content: "\e9bd";
   color: #fff;
+  font-size: 24px;
 }
 header h1 {
   width: 72%;
@@ -35,7 +36,7 @@ header h1 {
   text-shadow: 1px 1px 2px #2c3e50;
 }
 header figure {
-  width: 41px;
+  width: 49px;
   margin: 0;
   display: inline-block;
   background: #fff;
@@ -353,15 +354,19 @@ section.mision {
   background-size: 100% 100%;
   text-align: center;
   color: #fff;
+  padding: 5% 1%;
 }
 section.mision article.vision {
   display: none;
 }
 section.mision article.textoMision h2 {
-  margin: 0 5%;
-  width: 90%;
-  padding-top: 3%;
+  margin: 0 auto;
+  width: 40%;
+  padding: 0.5% 0%;
   text-align: center;
+  opacity: 0.9;
+  margin-bottom: 3%;
+  text-shadow: 2px 2px 2px #000;
 }
 section.mision article.textoMision p {
   width: 90%;
@@ -390,29 +395,110 @@ section.carreras:after {
   border-right: 10px solid transparent;
   border-bottom: 10px solid transparent;
   bottom: -20px;
-  left: 50%;
+  left: 45.5%;
 }
 section.licenciaturas article {
-  width: 100px;
-  height: 100px;
-  background: #f00;
+  width: 140px;
+  height: 92px;
+  background: #000;
   position: relative;
+  margin: 15% 2% 0 2%;
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+  color: #fff;
+  vertical-align: top;
+}
+section.licenciaturas article p,
+section.licenciaturas article h4 {
+  margin: 1% 0;
+}
+section.licenciaturas article div.bolita {
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  border-radius: 50%;
+  position: relative;
+  display: inline-block;
+  margin: 0% auto;
+}
+section.licenciaturas article div.bolita p.gastro,
+section.licenciaturas article div.bolita p.turismo,
+section.licenciaturas article div.bolita p.derecho,
+section.licenciaturas article div.bolita p.grafico,
+section.licenciaturas article div.bolita p.educacion,
+section.licenciaturas article div.bolita p.comunicacion,
+section.licenciaturas article div.bolita p.merca,
+section.licenciaturas article div.bolita p.conta,
+section.licenciaturas article div.bolita p.sistemas,
+section.licenciaturas article div.bolita p.tics,
+section.licenciaturas article div.bolita p.informatica,
+section.licenciaturas article div.bolita p.empresas,
+section.licenciaturas article div.bolita p.usuario,
+section.licenciaturas article div.bolita p.contra {
+  font-family: icomoon;
+  position: absolute;
+  top: 5px;
+  left: 7px;
+  color: #3498db;
+}
+section.licenciaturas article div.bolita p.gastro:after {
+  content: "\e9a0";
+}
+section.licenciaturas article div.bolita p.turismo:after {
+  content: "\e9ae";
+}
+section.licenciaturas article div.bolita p.derecho:after {
+  content: "\e9a8";
+}
+section.licenciaturas article div.bolita p.grafico:after {
+  content: "\e906";
+}
+section.licenciaturas article div.bolita p.educacion:after {
+  content: "\e91f";
+}
+section.licenciaturas article div.bolita p.comunicacion:after {
+  content: "\e91e";
+}
+section.licenciaturas article div.bolita p.merca:after {
+  content: "\e99b";
+}
+section.licenciaturas article div.bolita p.conta:after {
+  content: "\e93b";
+}
+section.licenciaturas article div.bolita p.sistemas:after {
+  content: "\e956";
 }
 section.licenciaturas article:after {
   content: "";
   position: absolute;
-  border-top: 50px solid transparent;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  border-bottom: 50px solid #ff0;
-  top: -70px;
+  bottom: -30px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 70px solid transparent;
+  border-right: 70px solid transparent;
+  border-top: 30px solid #000;
 }
 section.licenciaturas article:before {
   content: "";
   position: absolute;
-  border-top: 50px solid #008000;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  border-bottom: 50px solid transparent;
-  bottom: -70px;
+  top: -30px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 70px solid transparent;
+  border-right: 70px solid transparent;
+  border-bottom: 30px solid #000;
+}
+section.licenciaturas article.ld,
+section.licenciaturas article.laym,
+section.licenciaturas article.lc {
+  margin: 12% 27%;
+}
+section.licenciaturas article.ldg,
+section.licenciaturas article.lce,
+section.licenciaturas article.lcyf,
+section.licenciaturas article.isc {
+  margin-top: 0;
 }
