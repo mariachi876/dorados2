@@ -229,6 +229,7 @@ section.licenciaturas
 		vertical-align top
 		p,h4
 			margin 1% 0
+		
 		div.bolita
 			width 30px
 			height 30px
@@ -272,6 +273,7 @@ section.licenciaturas
 		border-left: 70px solid transparent;
 		border-right: 70px solid transparent;
 		border-top: 30px solid black;
+	
 	article:before
 		content: "";
 		position: absolute;
@@ -286,5 +288,17 @@ section.licenciaturas
 		margin 12% 27%
 	article.ldg,article.lce,article.lcyf,article.isc
 		margin-top 0
+	article.lt,article.lahyg,article.ldg,article.lce,article.lcyf,article.isc
+		background azul
+		&:after
+			border-top 30px solid azul
+		&:before
+			border-bottom 30px solid azul
+	article.ld,article.laym,article.lc
+		background orange
+		&:after
+			border-top 30px solid orange
+		&:before
+			border-bottom 30px solid orange
 
 

@@ -502,3 +502,42 @@ section.licenciaturas article.lcyf,
 section.licenciaturas article.isc {
   margin-top: 0;
 }
+section.licenciaturas article.lt,
+section.licenciaturas article.lahyg,
+section.licenciaturas article.ldg,
+section.licenciaturas article.lce,
+section.licenciaturas article.lcyf,
+section.licenciaturas article.isc {
+  background: #3498db;
+}
+section.licenciaturas article.lt:after,
+section.licenciaturas article.lahyg:after,
+section.licenciaturas article.ldg:after,
+section.licenciaturas article.lce:after,
+section.licenciaturas article.lcyf:after,
+section.licenciaturas article.isc:after {
+  border-top: 30px solid #3498db;
+}
+section.licenciaturas article.lt:before,
+section.licenciaturas article.lahyg:before,
+section.licenciaturas article.ldg:before,
+section.licenciaturas article.lce:before,
+section.licenciaturas article.lcyf:before,
+section.licenciaturas article.isc:before {
+  border-bottom: 30px solid #3498db;
+}
+section.licenciaturas article.ld,
+section.licenciaturas article.laym,
+section.licenciaturas article.lc {
+  background: #ffa500;
+}
+section.licenciaturas article.ld:after,
+section.licenciaturas article.laym:after,
+section.licenciaturas article.lc:after {
+  border-top: 30px solid #ffa500;
+}
+section.licenciaturas article.ld:before,
+section.licenciaturas article.laym:before,
+section.licenciaturas article.lc:before {
+  border-bottom: 30px solid #ffa500;
+}
